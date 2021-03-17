@@ -2,7 +2,7 @@
   "name": "timestamp-microservice-fcc",
   "version": "0.0.1",
   "description": "freeCodeCamp 1st api/microservices challenge using Typescript",
-  "main": "server.ts",
+  "main": "build/index.js",
   "scripts": {
     "dev": "nodemon",
     "build": "tsc",
