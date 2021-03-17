@@ -44,7 +44,7 @@ app.get('/api/timestamp/:date', (req, res) => {
 })
 
 // SERVER INIT
-const port = process.env.PORT || 3000
+const port = process.env.PORT
 
 app.listen(port, () => {
   console.log(`server listening on port ${port}`)
