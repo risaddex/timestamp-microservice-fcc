@@ -3,7 +3,7 @@ import cors from 'cors'
 
 const app = express()
 
-app.use(cors)
+app.use(cors({optionsSuccessStatus: 200}))
 
 // api index
 app.get('/', (req, res) => {
