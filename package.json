@@ -1,7 +1,7 @@
 {
   "name": "timestamp-microservice-fcc",
   "version": "0.0.1",
-  "description": "freeCodeCamp 1st api/microservices challenge",
+  "description": "freeCodeCamp 1st api/microservices challenge using Typescript",
   "main": "server.ts",
   "scripts": {
     "dev": "nodemon",
@@ -10,7 +10,8 @@
   },
   "keywords": [
     "express",
-    "node"
+    "node",
+    "ts-node"
   ],
   "author": "Danilo Cerqueira Romano",
   "license": "MIT",
